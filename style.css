@@ -1,0 +1,12 @@
+/* coolors palet https://coolors.co/d1d1d1-dbdbdb-85c7f2-636363-4c4c4c */
+
+/* Format for background of header, main, footer and other block elements */
+header, footer {
+    background-color: #4c4c4c;
+    color: white;
+}
+
+main {
+    background-color: #dbdbdb;
+    color: black;
+}
