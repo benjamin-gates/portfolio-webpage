@@ -4,9 +4,22 @@
 header, footer {
     background-color: #4c4c4c;
     color: white;
+    border-radius: 20px;
+    display: flex;
+    margin: 0px 20px 10px 20px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-main {
-    background-color: #dbdbdb;
-    color: black;
+
+section {
+    background: #dbdbdb;
+    border: solid 2px;
+    border-radius: 20px;
+    margin: 0px 20px 10px 20px;
+
+}
+
+main p, main h2 {
+    margin: 10px 10px 10px 10px;
 }
