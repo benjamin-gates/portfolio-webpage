@@ -6,9 +6,19 @@ header, footer {
     color: white;
     border-radius: 20px;
     display: flex;
+    flex-direction: column;
     margin: 0px 20px 10px 20px;
     justify-content: space-between;
     align-items: flex-end;
+}
+
+@media all and (min-width=600px){
+    header, footer {
+        flex-direction: row;
+    }
+    header ul {
+        flex-direction: row;
+    }
 }
 
 h1 {
@@ -23,7 +33,7 @@ nav {
 
 header ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-content: center;
     justify-content: space-between;
     list-style: none;
