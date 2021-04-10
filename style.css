@@ -9,15 +9,38 @@ header, footer {
     flex-direction: column;
     margin: 0px 20px 10px 20px;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+}
+
+header a:link {
+    color: white;
+    text-decoration: none;
+}
+
+header a:visited{
+    color: #dbdbdb;
+}
+
+header a:hover{
+    color: #636363;
+}
+
+header a:active{
+    color: #85c7f2;
 }
 
 @media all and (min-width:600px){
     header, footer {
         flex-direction: row;
+        align-items: flex-end;
     }
     header ul {
         flex-direction: row;
+    }
+
+    main section ul {
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
 
@@ -26,15 +49,10 @@ h1 {
     margin-bottom: 10px;
 }
 
-nav {
-    width: 50%;
-    margin-right: 50px;
-}
-
 header ul {
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: space-between;
     list-style: none;
     width: 100%;
@@ -49,6 +67,18 @@ section {
 
 }
 
+form {
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+}
+
 main p, main h2 {
     margin: 10px 10px 10px 10px;
 }
+ button {
+     border-radius: 30px;
+     width: 120%;
+     border: solid #d1d1d1;
+ }
