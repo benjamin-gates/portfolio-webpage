@@ -29,7 +29,7 @@ header a:active{
     color: #85c7f2;
 }
 
-@media all and (min-width:600px){
+@media all and (min-width:700px){
     header, footer {
         flex-direction: row;
         align-items: flex-end;
@@ -47,7 +47,7 @@ header a:active{
         justify-content: space-around;
         width: 100%;
     }
-    h1 {
+    header h1 {
         margin-left: 10px;
         min-width: 50%;
     }
@@ -122,7 +122,7 @@ main p, main h2 {
 
  section li a {
      color: #85c7f2;
-     text decoration: none;
+     text-decoration: none;
  }
 
  section li a:link{
