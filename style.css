@@ -12,7 +12,7 @@ header, footer {
     align-items: flex-end;
 }
 
-@media all and (min-width=600px){
+@media all and (min-width:600px){
     header, footer {
         flex-direction: row;
     }
