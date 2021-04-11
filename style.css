@@ -1,7 +1,9 @@
 /* coolors palet https://coolors.co/d1d1d1-dbdbdb-85c7f2-636363-4c4c4c */
 
-/* Format for background of header, main, footer and other block elements */
-header, footer {
+html{
+    font-family: ebrima, constantia, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header {
     background-color: #4c4c4c;
     color: white;
     border-radius: 20px;
@@ -192,10 +194,15 @@ main p, main h2 {
 
  .return-link a{
      text-decoration: none;
+     color: #636363;
+ }
+
+ .project-group a{
+     text-decoration: none;
      color: #85c7f2;
  }
 
- .return-link{
+ .return-link, h2{
      text-align: center;
  }
 
@@ -216,6 +223,15 @@ main p, main h2 {
      text-align: center;
  }
 
- h2 {
-     text-align: center;
+ form input{
+     margin-bottom: 10px;
+ }
+
+ form textarea{
+     margin-bottom: 20px;
+ }
+
+ form input, form textarea{
+     font-size: 14px;
+     font-family: ebrima, constantia, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
