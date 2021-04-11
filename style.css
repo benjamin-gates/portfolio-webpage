@@ -64,10 +64,18 @@ header a:active{
         width: 75%;
         padding-inline-end: 10px;
     }
-    main section .intro-group {
+    main section .intro-group, main section div .contact-group {
         flex-direction: row-reverse;
-        margin-right: 10px;
+        margin-left: 10px;
         margin-bottom: 10px;
+    }
+    main section .about-group {
+        flex-direction: row;
+        margin-right: 10px;
+    }
+
+    main section h2 {
+        text-align: left;
     }
 }
 
@@ -169,9 +177,16 @@ main p, main h2 {
      width: 200px;
  }
 
- .intro-group{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
+ img.family{
+     width: 200px;
+ }
 
+ .intro-group, .about-group, .contact-group{
+     display: flex;
+     flex-direction: column-reverse;
+     align-items: center;
+ }
+
+ h2 {
+     text-align: center;
  }
