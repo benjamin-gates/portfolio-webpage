@@ -64,6 +64,11 @@ header a:active{
         width: 75%;
         padding-inline-end: 10px;
     }
+    main section .intro-group {
+        flex-direction: row-reverse;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
 }
 
 h1 {
@@ -150,4 +155,23 @@ main p, main h2 {
      margin-left: 10px;
      text-decoration: none;
      color: #85c7f2;
+ }
+
+ img.profile {
+     width: 200px;
+ }
+
+ img.running{
+     width: 200px;
+ }
+
+ img.project-photo{
+     width: 200px;
+ }
+
+ .intro-group{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+
  }
