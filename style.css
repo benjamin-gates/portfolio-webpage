@@ -64,19 +64,50 @@ header a:active{
         width: 75%;
         padding-inline-end: 10px;
     }
-    main section .intro-group, main section div .contact-group {
+    main section .intro-group {
         flex-direction: row-reverse;
         margin-left: 10px;
         margin-bottom: 10px;
+        align-items: flex-start;
     }
     main section .about-group {
         flex-direction: row;
         margin-right: 10px;
     }
 
+    main section div .contact-group {
+        flex-direction: row-reverse;
+        margin-right: 10px;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
     main section h2 {
         text-align: left;
     }
+
+    main section .return-link{
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    main section .project-group {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    main section .project-group div {
+        width: 300px;
+    }
+
+    main section .project-group h3, main section .project-group img, main section .project-group div {
+        text-align: center;
+    }
+
+    main section .project-group p{
+        text-align: justify;
+    }
+
 }
 
 h1 {
@@ -154,37 +185,35 @@ main p, main h2 {
      color: black;
  }
 
- .group {
+ .project-group {
      display: flex;
      flex-direction: column;
  }
 
- a.return-link{
-     margin-left: 10px;
+ .return-link a{
      text-decoration: none;
      color: #85c7f2;
  }
 
- img.profile {
-     width: 200px;
+ .return-link{
+     text-align: center;
  }
 
- img.running{
+ img{
      width: 200px;
- }
-
- img.project-photo{
-     width: 200px;
- }
-
- img.family{
-     width: 200px;
+     border-radius: 20px;
  }
 
  .intro-group, .about-group, .contact-group{
      display: flex;
      flex-direction: column-reverse;
      align-items: center;
+ }
+
+ .project-group{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
  }
 
  h2 {
