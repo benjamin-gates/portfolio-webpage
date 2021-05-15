@@ -1,5 +1,5 @@
 # Portfolio Webpage
-This is a single webpage that gives more information about myself. Especially highlighted is my background, interests, and contact information.
+This is a single webpage that gives more information about myself. Especially highlighted are my background, interests, and contact information.
 
 ## Context of this Assignment
 The purpose of this assignment was to demonstrate my understanding of responsive web development. I used flexbox properties to design my webpage for smaller screens first, then larger screens.
