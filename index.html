@@ -1,107 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>My Portfolio Page</title>
-        <link href="style.css" rel="stylesheet" type="text/css" />
-    </head>
-    <body>
-        <header id="top">
-            <h1>Ben Gates</h1>
-                <ul class="rowclass">
-                    <li><a href="#intro">Introduction</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li> 
-                    <li><a href="#contact">Contact Me</a></li>
-                </ul>
-        </header>
-        <main>
-            <section id="intro">
-                <h2>Introduction</h2>
-                <div class="intro-group">
-                <div>
-                <p>My name is Ben Gates. I am a software engineering flex student at Thinkful and am working towards my dream of being a <strong>front end developer</strong>!</p>
-                <p>I worked for 3 years as a math teacher at Fort Washakie High School and am ready to use the skills acquired from that position in software developing. My experience as a math teacher makes me special because I have built <em>communication</em> and <em>management</em> skills through the process.</p>
-                </div>
-                <img class="profile" src="images/profile-pic.jpg" alt="Profile Picture"/>
-                </div>
-                <div class="return-link"><a href="#top">Back to Top</a></div>
-            </section>
-            <section id="about">
-                <h2>About Me</h2>
-                <div class="about-group">
-                    <div>
-                <p>Although I am new to web development, my interest in this field grows day by day. Growing up, I always enjoyed being <em>creative</em> through music or art and <em>solving challenging problems</em> via math classes, board games, or puzzles. Little did I know that becoming a web developer is the perfect way to combine these two disciplines!</p>
-                <p>Being new, I know that I will need to look for insights and advice from other team members in my future software developing jobs. When I was a new teacher, the suggestions of other teachers and training from professional development sessions tended to become the information that stuck with me the most. </p>
-                <p>I can write <strong>JavaScript</strong>, <strong>HTML</strong> and, <strong>CSS</strong> programming languages. In addition to the soft skills I mentioned above, I do have the ability to <em>build camaraderie</em> among team members and make the working environment fun. I also enjoy working through challenging problems where a solution seems impossible</p>
-                <p>The services that I can provide include:</p> <ul>
-                    <li>Front-end development</li>
-                    <li>Back-end development and</li>
-                    <li>Web design</li>
-                </ul>
-                <p>Outside of web development, I have other interests. I enjoy playing most sports, especially SpikeBall and Basketball. During the summers, I try and go hike in the outdoors and take my dog on regular runs. Also, just like any normal, sane person, I have an irrational love for good food.</p>
-                </div>
-                <img class="running" src="images/marathon2.jpg" alt="Me running a marathon">
-                </div>
-                <div class="return-link"><a href="#top">Back to Top</a></div>
-            </section>
-            <section id="projects">
-                <h2>Projects</h2>
-                <p>Below are the projects that I have/intend to work on:</p>
-                <div class="project-group">
-                <div>
-                    <h3>PuzzleClassroom</h3>
-                    <img class="project-photo" src="images/coming-soon.jpg" alt="Image Coming Soon">
-                    <div>
-                    <a href="http://www.freepik.com" target="_blank">Designed by starline / Freepik</a>
-                    </div>
-                    <p>The purpose of this site will be to connect students to the exact teachers/mentors that they need. This is intended for students of all ages with any educational goal.</p>
-                </div>
-                <div>
-                    <h3>GhostSite</h3>
-                    <img class="project-photo" src="images/coming-soon.jpg" alt="Image Coming Soon">
-                    <div>
-                    <a href="http://www.freepik.com" target="_blank">Designed by starline / Freepik</a>
-                    </div>
-                    <p>Many small, diamond-in-the-rough, rural Wyoming businesses have little to no presence on the web. The purpose of this site will be to provide a way for these businesses to connect with freelance developers who can build their site and maintain it.</p>
-                </div>
-                </div>
-                <div class="return-link"><a href="#top">Back to Top</a></div>
-            </section>
-            <section id="contact">
-                <h2>Contact</h2>
-                <div>
-                    <div class="contact-group">
-                <img class="family" src="images/family.jpg" alt="Family Photo">
-                <div>
-                    <p>Enter your contact information below here to connect with me:</p>
-                <form action="https://formspree.io/f/xrgrgjov" method="POST" target="_blank">
-                    <label for="name">Name:</label>
-                    <input id="name" type="text" name="name">
-                    <label for="email">Email:</label>
-                    <input id="email" type="text" name="email">
-                    <label for="form-message">Type your message here:</label>
-                    <textarea id="form-message"></textarea>
-                    <input type="submit">
-                </form>
-                </div>
-                </div>
-                <div>
-                    <p>Here is my information:</p>
-                    <ul>
-                        <li><a href="mailtto:benjamin_gates@outlook.com" target="_blank">Email</a></li>
-                        <li><a href="https://github.com/benjamin-gates" target="_blank">GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/ben-gates-3a904b206/" target="_blank">LinkedIn</a></li>
-                    </ul>
-                </div>
-                <div class="return-link"><a href="#top">Back to Top</a></div>
-                </div>
-            </section>
-        </main>
-        <footer>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My Portfolio Page</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header id="top">
+      <h1>Ben Gates</h1>
+      <ul class="rowclass">
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </header>
+    <main>
+      <section id="intro">
+        <h2>Introduction</h2>
+        <div class="intro-group">
+          <div>
+            <p>
+              My name is Ben Gates. I am a software engineering flex student at
+              Thinkful and am working towards my dream of being a
+              <strong>full stack developer</strong>!
+            </p>
+            <p>
+              I worked for 3 years as a math teacher at Fort Washakie High
+              School and am ready to use the skills acquired from that position
+              in software developing. My experience as a math teacher makes me
+              special because I have built <em>communication</em> and
+              <em>management</em> skills through the process.
+            </p>
+          </div>
+          <img
+            class="profile"
+            src="images/portfolio-pic.jpg"
+            alt="Profile Picture"
+          />
+        </div>
+        <div class="return-link"><a href="#top">Back to Top</a></div>
+        <hr />
+      </section>
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="about-group">
+          <div>
+            <p>
+              Although I am new to web development, my interest in this field
+              grows day by day. Growing up, I always enjoyed being
+              <em>creative</em> through music or art and
+              <em>solving challenging problems</em> via math classes, board
+              games, or puzzles. Little did I know that becoming a web developer
+              is the perfect way to combine these two disciplines!
+            </p>
+            <p>
+              Being new, I know that I will need to look for insights and advice
+              from other team members in my future software developing jobs.
+              When I was a new teacher, the suggestions of other teachers and
+              training from professional development sessions tended to become
+              the information that stuck with me the most.
+            </p>
+            <p>
+              I can write <strong>JavaScript</strong>,
+              <strong>HTML</strong> and, <strong>CSS</strong> programming
+              languages. In addition to the soft skills I mentioned above, I do
+              have the ability to <em>build camaraderie</em> among team members
+              and make the working environment fun. I also enjoy working through
+              challenging problems where a solution seems impossible
+            </p>
+            <p>The services that I can provide include:</p>
+            <ul>
+              <li>Front-end development</li>
+              <li>Back-end development and</li>
+              <li>Web design</li>
+            </ul>
+            <p>
+              Outside of web development, I have other interests. I enjoy
+              playing most sports, especially SpikeBall and Basketball. During
+              the summers, I try and go hike in the outdoors and take my dog on
+              regular runs. Also, just like any normal, sane person, I have an
+              irrational love for good food.
+            </p>
+          </div>
+        </div>
+        <div class="return-link"><a href="#top">Back to Top</a></div>
+        <hr />
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <p>Below are the projects that I have worked on:</p>
+        <div class="project-group">
+          <div>
+            <h3>Project Pomodoro Timer</h3>
+            <a
+              href="https://project-pomodoro-timer-qualified-1-dusky.vercel.app/"
+              target="_blank"
+              >Deployed Application</a
+            >
+            <div>
+              <a
+                href="https://github.com/benjamin-gates/project-pomodoro-timer"
+                target="_blank"
+                >GitHub Repository</a
+              >
+            </div>
+            <img
+              class="project-photo"
+              src="images/pomodoro.png"
+              alt="Pomodoro Screenshot"
+            />
+            <p>
+              Description: This is a time management application that follows
+              the typical guidlines of a Pomodoro Timer. This application allows
+              the user to set their study and break times and view a progress
+              bar while each is running.
+            </p>
+            <p>
+              My Contribution: I developed the React code that changes state for
+              the all the buttons and added all the conditional logic that
+              shows/hides the progress bar and freezes the stop button
+            </p>
+            <p>Technologies Used: JavaScript, HTML, React.js</p>
+          </div>
+          <div>
+            <h3>Project Flashcards</h3>
+            <a
+              href="https://github.com/benjamin-gates/project-flashcards"
+              target="_blank"
+              >GitHub Repository</a
+            >
+            <img
+              class="project-photo"
+              src="images/project-flashcards.png"
+              alt="Flashcards Screenshot"
+            />
+            <p>
+              Description: This application assists the user in studying. On the
+              site, the user can create, update, or delete flashcards.
+            </p>
+            <p>
+              My Contribution: I developed the frontend portion of the
+              application.
+            </p>
+            <p>Technologies Used: React, JavaScript, HTML5, Bootstrap</p>
+          </div>
+          <div>
+            <h3>Project We Love Movies (backend)</h3>
+            <a
+              href="https://github.com/benjamin-gates/Project_We_Love_The_Movies_BackEnd"
+              target="_blank"
+              >GitHub Repository</a
+            >
+            <img
+              class="project-photo"
+              src="images/coming-soon.jpg"
+              alt="Image Coming Soon"
+            />
+            <div>
+              <a href="http://www.freepik.com" target="_blank"
+                >Designed by starline / Freepik</a
+              >
+            </div>
+            <p>
+              Description: This backend application contains the server for a
+              frontend We Love Movies application. The frontend application
+              displays information related to movies and their associated
+              reviews and theaters.
+            </p>
+            <p>
+              My Contribution: I developed the RESTful API and server for this
+              application.
+            </p>
+            <p>
+              Technologies Used: JavaScript, Knex.js, Node.js, ElephantSQL,
+              PostgreSQL
+            </p>
+          </div>
+        </div>
+        <div class="return-link"><a href="#top">Back to Top</a></div>
+        <hr />
+      </section>
+      <section id="contact">
+        <h2 style="text-align: center">Contact</h2>
+          <div class="contact-group">
+            <div>
+              <p>
+                Enter your contact information below here to connect with me:
+              </p>
+              <form
+                action="https://formspree.io/f/xrgrgjov"
+                method="POST"
+                target="_blank"
+              >
+                <label for="name">Name:</label>
+                <input id="name" type="text" name="name" />
+                <label for="email">Email:</label>
+                <input id="email" type="text" name="email" />
+                <label for="form-message">Type your message here:</label>
+                <textarea id="form-message"></textarea>
+                <input type="submit" />
+              </form>
+            </div>
+          </div>
+          <div class="return-link"><a href="#top">Back to Top</a></div>
+          </section>
+          <footer>
+            <ul>
+              <li>
+                <a href="mailtto:benjamin_gates@outlook.com" target="_blank"
+                  ><img
+                  class="icon"
+                  src="images/email-round-color.png"
+                  alt="Email Icon"
+                /></a
+                >
+              </li>
+              <li>
+                <a href="https://github.com/benjamin-gates" target="_blank"
+                  ><img
+                  class="icon"
+                  src="images/github.png"
+                  alt="GitHub Icon"
+                /></a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/ben-gates-3a904b206/"
+                  target="_blank"
+                  ><img
+                  class="icon"
+                  src="images/linkedin-square.png"
+                  alt="linkedin Icon"
+                /></a
+                >
+              </li>
+            </ul>
+          </footer>
 
-        </footer>
-        <script src="src.js"></script>
-    </body>
+
+    </main>
+    <script src="src.js"></script>
+  </body>
 </html>

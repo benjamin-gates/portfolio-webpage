@@ -3,120 +3,53 @@
 html{
     font-family: ebrima, constantia, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+body{
+    margin: 0px;
+}
 header {
-    background-color: #4c4c4c;
+    background-color: #2D389E;
     color: white;
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    margin: 0px 20px 10px 20px;
+    margin: 0px 0px 10px 0px;
     justify-content: space-between;
     align-items: center;
 }
 
-header a:link {
+footer {
+    background-color: #6370EB;
+    margin: 0px 0px 0px 0px;
+    height: 80px;
+    display: flex;
+}
+
+footer ul {
+    display: flex;
+    margin: 0px 0px 0px 0px;
+    width: 30%;
+}
+
+
+header a:link, footer a:link {
     color: white;
     text-decoration: none;
 }
 
-header a:visited{
-    color: #dbdbdb;
+header a:visited, footer a:visited {
+    color: #6370EB;
 }
 
-header a:hover{
-    color: #636363;
+header a:hover, footer a:hover {
+    color: #EB9A7A;
 }
 
-header a:active{
-    color: #85c7f2;
+header a:active, footer a:active {
+    color: #85EB4B;
+}
+hr {
+    background-color: #EB9A7A;
 }
 
-@media all and (min-width:800px){
-    header, footer {
-        flex-direction: row;
-        align-items: flex-end;
-    }
-    header ul, .group {
-        flex-direction: row;
-    }
-
-    header ul {
-        padding-inline-start: 40px;
-    }
-
-    main section ul {
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-    }
-    header h1 {
-        margin-left: 10px;
-        min-width: 50%;
-    }
-
-    section .group {
-        display: flex;
-        flex-direction: row;
-    }
-
-    ul.rowclass {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 75%;
-        padding-inline-end: 10px;
-    }
-    main section .intro-group {
-        flex-direction: row-reverse;
-        margin-left: 10px;
-        margin-bottom: 10px;
-        align-items: flex-start;
-    }
-    main section .about-group {
-        flex-direction: row;
-        margin-right: 10px;
-    }
-
-    main section div .contact-group {
-        flex-direction: row-reverse;
-        margin-right: 10px;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-
-    main section h2 {
-        text-align: left;
-    }
-
-    main section .return-link{
-        text-align: left;
-        margin-left: 10px;
-    }
-
-    main section .project-group {
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    main section .project-group div {
-        width: 300px;
-    }
-
-    main section .project-group h3, main section .project-group img, main section .project-group div {
-        text-align: center;
-    }
-
-    main section .project-group p{
-        text-align: justify;
-    }
-
-    main section .about-group ul {
-        flex-direction: column;
-        align-items: flex-start;
-        margin-left: 50px;
-    }
-
-}
 
 h1 {
     margin-left: 0px;
@@ -132,14 +65,20 @@ header ul {
     width: 100%;
     padding-inline-start: 0px;
 }
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    padding-inline-start: 0px;
+}
 h3 {
     margin-left: 10px;
 }
 
 section {
-    background: #dbdbdb;
-    border: solid 2px;
-    border-radius: 20px;
     margin: 0px 20px 10px 20px;
 
 }
@@ -160,13 +99,6 @@ main p, main h2 {
      border: solid #d1d1d1;
  }
 
- section ul {
-     list-style: none;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     padding: 0px 0px 0px 0px;
- }
 
  section li {
      width: 75px;
@@ -178,19 +110,19 @@ main p, main h2 {
  }
 
  section li a:link{
-     color: #85c7f2;
+     color: #EB9A7A;
  }
 
  section li a:visited{
-     color: #848484;
+     color: #2D389E;
  }
 
  section li a:hover{
-     color: #4c4c4c;
+     color: #799E64;
  }
 
  section li a:active{
-     color: black;
+     color: #85EB4B;
  }
 
  .project-group {
@@ -203,10 +135,27 @@ main p, main h2 {
      color: #636363;
  }
 
- .project-group a{
+ .project-group a:link{
      text-decoration: none;
-     color: #85c7f2;
+     color: #2D389E;
  }
+
+ .project-group a:visited{
+    text-decoration: none;
+    color: #6370EB;;
+}
+
+ .project-group a:hover{
+    text-decoration: none;
+    color: #EB9A7A;
+}
+
+.project-group a:active{
+    text-decoration: none;
+    color: #85EB4B;
+}
+
+
 
  .return-link, h2{
      text-align: center;
@@ -249,3 +198,107 @@ main p, main h2 {
  .about-group ul {
      list-style: disc;
  }
+
+ .icon {
+     height: 50%;
+ }
+
+ footer img {
+     width: 35px;
+ }
+
+ @media all and (min-width:800px){
+    header{
+        flex-direction: row;
+        align-items: flex-end;
+    }
+    header ul, .group, footer ul {
+        flex-direction: row;
+    }
+
+    header ul {
+        padding-inline-start: 40px;
+    }
+
+    main section ul {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+    }
+    header h1 {
+        margin-left: 10px;
+        min-width: 50%;
+    }
+
+    section .group {
+        display: flex;
+        flex-direction: row;
+    }
+
+    ul.rowclass {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 75%;
+        padding-inline-end: 10px;
+    }
+    main section .intro-group {
+        flex-direction: row-reverse;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        align-items: flex-start;
+    }
+    main section .about-group {
+        flex-direction: row;
+        margin-right: 10px;
+    }
+
+    main section div .contact-group {
+        flex-direction: row;
+        margin-right: 10px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    main section h2 {
+        text-align: left;
+        color: #799E64;
+    }
+
+    main section .return-link{
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    main section .project-group {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    main section .project-group div {
+        width: 300px;
+    }
+
+    main section .project-group h3, main section .project-group img, main section .project-group div {
+        text-align: center;
+    }
+
+    main section .project-group p{
+        text-align: justify;
+    }
+
+    main section .about-group ul {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 50px;
+    }
+
+    footer ul {
+        align-content: center;
+        justify-content: space-around;
+    }
+    footer {
+        align-content: center;
+    }
+
+}
