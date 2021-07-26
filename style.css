@@ -7,6 +7,10 @@ html{
 .project-photo, .profile {
     border: #EB9A7A solid 1px;
 }
+
+.project-photo {
+    height: 100px;
+}
 body{
     margin: 0px;
 }
