@@ -3,6 +3,10 @@
 html{
     font-family: ebrima, constantia, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+.project-photo, .profile {
+    border: #EB9A7A solid 1px;
+}
 body{
     margin: 0px;
 }
@@ -101,7 +105,8 @@ main p, main h2 {
 
 
  section li {
-     width: 75px;
+     width: 100%;
+     text-align: left;
  }
 
  section li a {
