@@ -164,7 +164,9 @@ main p, main h2 {
     color: #85EB4B;
 }
 
-
+main section h2 {
+    color: #799E64;
+}
 
  .return-link, h2{
      text-align: center;
@@ -271,7 +273,7 @@ main p, main h2 {
 
     main section h2 {
         text-align: left;
-        color: #799E64;
+        
     }
 
     main section .return-link{
