@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width" />
     <title>Portfolio - Ben Gates</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons@latest/iconfont/tabler-icons.min.css">
   </head>
   <body>
     <header id="top">
@@ -12,32 +13,27 @@
       <ul class="rowclass">
         <li><a href="#intro">Introduction</a></li>
         <li><a href="#about">About Me</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
         <li><a href="#contact">Contact Me</a></li>
       </ul>
     </header>
     <main>
       <section id="intro">
-        <h2>Introduction</h2>
+        <h2><i class="ti ti-user"></i> Introduction</h2>
         <div class="intro-group">
           <div>
             <p>
-              My name is Ben Gates. I am a full-stack software engineer that enjoys working on new, exciting and challenging projects. I am currently working on a volunteer basis for Mantis Haven, where I am developing their first full-stack application using React.js and NodeJS.
+              I am a senior software engineer with 4+ years of experience building scalable, Dockerized backend systems and data-intensive features. Known for clear, proactive communication, I translate product requirements into technical solutions, manage complex job orchestration and scaling challenges, and troubleshoot intricate production issues.
             </p>
             <p>
-              I worked for 3 years as a math teacher at Fort Washakie High
-              School and am ready to use the skills acquired from that position
-              in software developing. My experience as a math teacher makes me
-              special because I have built <em>communication</em> and
-              <em>management</em> skills through the process.
+              I leverage AI-assisted development tools such as Cursor and Claude Code to accelerate coding, debugging, and problem-solving. Currently, I'm focused on architecting robust backend frameworks and leading cross-functional technical initiatives at cQuant.io.
             </p>
-            <p>Here is the list of technical skills I am proficient in:</p>
+            <p><i class="ti ti-code"></i> Technical Skills:</p>
             <ul>
-              <li>Front-end: JavaScript ES6, HTML5, CSS3, React.js, Bootstrap</li>
-              <li>Back-end: NodeJS, Express.js, PostgreSQL, Knex.js </li>
-              <li>Other Skills: Git, GitHub, Heroku, Vercel</li>
+              <li><i class="ti ti-terminal-2"></i> <strong>Languages & Core Technologies:</strong> Python, Go, JavaScript, Bash, Node.js, Express.js, React, Pytest</li>
+              <li><i class="ti ti-cloud"></i> <strong>Cloud, Infrastructure & Datastores:</strong> PostgreSQL, Docker, Kubernetes, Redis, Azure, Cloud Computing</li>
+              <li><i class="ti ti-git-merge"></i> <strong>Software Design & Practices:</strong> Git, GitHub, GitLab, RestAPI, Object-Oriented Programming (OOP)</li>
             </ul>
-
           </div>
           <img
             class="profile"
@@ -48,175 +44,45 @@
         <div class="return-link"><a href="#top">Back to Top</a></div>
         <hr />
       </section>
-      <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-group">
-          <div>
-            <h3>Restaurant Reservation System</h3>
-            
-            <img
-              class="project-photo"
-              src="images/res-sys-screenshot.png"
-              alt="Image Coming Soon"
-            />
-            <div>
-            <a
-              href="https://res-sys-client.herokuapp.com/"
-              target="_blank"
-              >Deployed Application</a
-            >
+      <section id="experience">
+        <h2><i class="ti ti-briefcase"></i> Professional Experience</h2>
+        <div class="experience-group">
+          <div class="experience-item">
+            <h3><i class="ti ti-crown"></i> Senior Software Engineer</h3>
+            <p class="company">cQuant.io | Remote | January 2025 - Present</p>
+            <ul>
+              <li>Architected and led development of a backend framework for deploying and hosting embedded interactive applications as isolated, configurable pods with custom images, permissions, and execution scripts, using Go and Node.js</li>
+              <li>Led implementation and testing of an asynchronous job processing system, partnering with quantitative developers to support background execution of internal machine learning models</li>
+              <li>Owned prioritization and delivery across five backend services, including data validation, data integration, job scheduling, provisioning, and management</li>
+              <li>Identified and eliminated redundant file downloads by designing and validating a Redis-based caching solution, while triaging and resolving complex production issues</li>
+            </ul>
           </div>
-            <div>
-            <a
-              href="https://github.com/benjamin-gates/starter-restaurant-reservation"
-              target="_blank"
-              >GitHub Repository</a
-            >
+          <div class="experience-item">
+            <h3><i class="ti ti-device-laptop"></i> Software Engineer</h3>
+            <p class="company">cQuant.io | Remote | November 2021 - January 2025</p>
+            <ul>
+              <li>Designed and implemented APIs in Node.js and React-based user interface to streamline user configuration of third-party data integrations</li>
+              <li>Implemented automated data validation features in Go, decreasing support requests and ensuring higher reliability of customer data</li>
+              <li>Migrated legacy self-hosted Redis instance to Azure Cache for Redis (cluster) for NodeJS, Python, and Go components</li>
+              <li>Led testing for system migration to Azure Kubernetes, enabling system scaling by 100%</li>
+            </ul>
           </div>
-            <p>
-              Description: This full stack application contains the code for a restauarant reservation system that allows the user to create, read, update, and delete restaurant reservations and tables.
-            </p>
-            <p>
-              My Contribution: I developed both the frontend and backend applications.
-            </p>
-            <p>
-              Technologies Used: React.js, JavaScript, FetchAPI, Bootstrap, CSS, Express, Knex.js, PostgreSQL
-            </p>
-          </div>
-          <div>
-            <h3>Project Pomodoro Timer</h3>
-            
-            <img
-              class="project-photo"
-              src="images/pomodoro.png"
-              alt="Pomodoro Screenshot"
-            />
-            <div>
-            <a
-              href="https://project-pomodoro-timer-qualified-1-dusky.vercel.app/"
-              target="_blank"
-              >Deployed Application</a
-            >
-          </div>
-            <div>
-              <a
-                href="https://github.com/benjamin-gates/project-pomodoro-timer"
-                target="_blank"
-                >GitHub Repository</a
-              >
-            </div>
-            <p>
-              Description: This is a time management application that follows
-              the typical guidlines of a Pomodoro Timer. This application allows
-              the user to set their study and break times and view a progress
-              bar while each is running.
-            </p>
-            <p>
-              My Contribution: I developed the React code that changes state for
-              the all the buttons and added all the conditional logic that
-              shows/hides the progress bar and freezes the stop button
-            </p>
-            <p>Technologies Used: JavaScript, HTML, React.js</p>
-          </div>
-          <div>
-            <h3>Project Flashcards</h3>
-            
-            <img
-              class="project-photo"
-              src="images/project-flashcards.png"
-              alt="Flashcards Screenshot"
-            />
-            <div>
-            <a
-              href="https://github.com/benjamin-gates/project-flashcards"
-              target="_blank"
-              >GitHub Repository</a
-            >
-          </div>
-          <br />
-            <p>
-              Description: This application assists the user in studying. On the
-              site, the user can create, update, or delete flashcards.
-            </p>
-            <p>
-              My Contribution: I developed the frontend portion of the
-              application.
-            </p>
-            <p>Technologies Used: React, JavaScript, HTML5, Bootstrap</p>
-          </div>
-          <div>
-            <h3>Project We Love Movies</h3>
-            
-            <img
-              class="project-photo"
-              src="images/coming-soon.jpg"
-              alt="Image Coming Soon"
-            /><div>
-            <a
-              href="https://github.com/benjamin-gates/Project_We_Love_The_Movies_BackEnd"
-              target="_blank"
-              >GitHub Repository</a
-            >
-          </div>
-            <div>
-              <a href="http://www.freepik.com" target="_blank"
-                >Designed by starline / Freepik</a
-              >
-            </div>
-            <p>
-              Description: This backend application contains the server for a
-              frontend We Love Movies application. The frontend application
-              displays information related to movies and their associated
-              reviews and theaters.
-            </p>
-            <p>
-              My Contribution: I developed the RESTful API and server for this
-              application.
-            </p>
-            <p>
-              Technologies Used: JavaScript, Knex.js, Node.js, ElephantSQL,
-              PostgreSQL
-            </p>
-          </div>
-          
         </div>
         <div class="return-link"><a href="#top">Back to Top</a></div>
         <hr />
       </section>
       <section id="about">
-        <h2>About Me</h2>
+        <h2><i class="ti ti-info-circle"></i> About Me</h2>
         <div class="about-group">
           <div>
             <p>
-              Although I am new to web development, my interest in this field
-              grows day by day. Growing up, I always enjoyed being
-              <em>creative</em> through music or art and
-              <em>solving challenging problems</em> via math classes, board
-              games, or puzzles. Little did I know that becoming a web developer
-              is the perfect way to combine these two disciplines!
+              As a senior software engineer, I combine technical expertise with strong communication skills honed during my previous career as a mathematics educator. This unique background enables me to bridge the gap between complex technical concepts and clear stakeholder communication.
             </p>
             <p>
-              Being new, I know that I will need to look for insights and advice
-              from other team members in my future software developing jobs.
-              When I was a new teacher, the suggestions of other teachers and
-              training from professional development sessions tended to become
-              the information that stuck with me the most.
+              I thrive on solving challenging problems in distributed systems, cloud architecture, and data-intensive applications. My approach emphasizes proactive communication, technical leadership, and continuous learning through modern development practices and AI-assisted tools.
             </p>
             <p>
-              I can write <strong>JavaScript</strong>,
-              <strong>HTML</strong> and, <strong>CSS</strong> programming
-              languages. In addition to the soft skills I mentioned above, I do
-              have the ability to <em>build camaraderie</em> among team members
-              and make the working environment fun. I also enjoy working through
-              challenging problems where a solution seems impossible
-            </p>
-            
-            <p>
-              Outside of web development, I have other interests. I enjoy
-              playing most sports, especially SpikeBall and Basketball. During
-              the summers, I try and go hike in the outdoors and take my dog on
-              regular runs. Also, just like any normal, sane person, I have an
-              irrational love for good food.
+              Beyond software engineering, I maintain interests in sports, outdoor activities, and continuous learning. I believe that the discipline and problem-solving mindset from mathematics education directly translates to building robust, scalable software solutions.
             </p>
           </div>
         </div>
@@ -225,7 +91,7 @@
       </section>
       
       <section id="contact">
-        <h2 style="text-align: center">Contact</h2>
+        <h2 style="text-align: center"><i class="ti ti-mail"></i> Contact</h2>
           <div class="contact-group">
             <div>
               <p>
@@ -236,13 +102,13 @@
                 method="POST"
                 target="_blank"
               >
-                <label for="name">Name:</label>
+                <label for="name"><i class="ti ti-user-circle"></i> Name:</label>
                 <input id="name" type="text" name="name" />
-                <label for="email">Email:</label>
+                <label for="email"><i class="ti ti-at"></i> Email:</label>
                 <input id="email" type="text" name="email" />
-                <label for="form-message">Type your message here:</label>
+                <label for="form-message"><i class="ti ti-message"></i> Type your message here:</label>
                 <textarea id="form-message"></textarea>
-                <input type="submit" />
+                <input type="submit" value="Send Message" />
               </form>
             </div>
           </div>
@@ -251,35 +117,26 @@
           <footer>
             <ul>
               <li>
-                <a href="mailtto:benjamin_gates@outlook.com" target="_blank"
-                  ><img
-                  class="icon"
-                  src="images/email-round-color.png"
-                  alt="Email Icon"
-                /></a
+                <a href="mailto:benjamin_gates@outlook.com" target="_blank"
+                  ><i class="ti ti-mail"></i></a
                 >
               </li>
               <li>
                 <a href="https://github.com/benjamin-gates" target="_blank"
-                  ><img
-                  class="icon"
-                  src="images/github.png"
-                  alt="GitHub Icon"
-                /></a
+                  ><i class="ti ti-brand-github"></i></a
                 >
               </li>
               <li>
                 <a
                   href="https://www.linkedin.com/in/ben-gates-3a904b206/"
                   target="_blank"
-                  ><img
-                  class="icon"
-                  src="images/linkedin-square.png"
-                  alt="linkedin Icon"
-                /></a
+                  ><i class="ti ti-brand-linkedin"></i></a
                 >
               </li>
             </ul>
+            <div class="attribution">
+              <p>Icons by <a href="https://tabler.io/icons" target="_blank" rel="noopener">Tabler Icons</a> - MIT License</p>
+            </div>
           </footer>
 
 
